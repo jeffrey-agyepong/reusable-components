@@ -1,6 +1,6 @@
 :root {
     --primary: #3e8bff;
-    --primaryLight: #d3e5f7;
+    --primaryLight: #fcfdff;
     --secondary: #227bd5;
     --secondaryLight: #87b7ff;
     --textMako:#0b9a9a;
@@ -22,7 +22,6 @@
   
   body {
     font-family: 'Montserrat Variable', sans-serif;
-    background-color: var(--primaryLight);
     color: var(--bodyTextColor);
     margin: 0;
     padding: 0;

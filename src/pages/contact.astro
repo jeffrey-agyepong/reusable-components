@@ -1,11 +1,9 @@
 ---
-import CTA from "../components/cta/CTA.astro";
+import ContactForm from "../components/contactform/ContactForm.astro";
+import InnerHero from "../components/innerhero/InnerHero.astro";
 import Footer from "../components/footer/Footer.astro";
-import Hero from "../components/hero/Hero.astro"
 import Navbar from "../components/navbar/Navbar.astro";
-import LeftRight from "../components/left-right/LeftRIght.astro";
-import LeftRightAlt from "../components/left-right-alt/LeftRightAlt.astro"
-import Services4Cards from "../components/services/Services4Cards.astro";
+
 import '../styles/global.css';
 
 // Supports weights 100-900
@@ -23,11 +21,8 @@ import '@fontsource-variable/montserrat';
 	<body>
 		<main>
 			<Navbar/>
-			<Hero/>
-			<LeftRight/>
-			<LeftRightAlt/>
-			<CTA/>
-			<Services4Cards/>
+			<InnerHero/>
+			<ContactForm/>
 			<Footer/>
 		</main>
 	</body>
