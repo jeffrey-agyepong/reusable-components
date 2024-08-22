@@ -1,0 +1,30 @@
+---
+import Hero from "../components/hero/Hero.astro"
+import Navbar from "../components/navbar/Navbar.astro";
+import LeftRight from "../components/left-right/LeftRIght.astro";
+import LeftRightAlt from "../components/left-right-alt/LeftRightAlt.astro"
+import Services4Cards from "../components/services/Services4Cards.astro";
+import '../styles/global.css';
+
+// Supports weights 100-900
+import '@fontsource-variable/montserrat';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<main>
+			<Navbar/>
+			<Hero/>
+			<LeftRight/>
+			<LeftRightAlt/>
+			<Services4Cards/>
+		</main>
+	</body>
+</html>

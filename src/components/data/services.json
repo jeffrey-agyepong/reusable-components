@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "title": "Gum Surgery",
+            "description": "Our gum surgery services ensure optimal gum health with the latest techniques and care.",
+            "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/toothache.png"
+        },
+        {
+            "title": "Dental Implants",
+            "description": "Get top-quality dental implants to restore your smile and confidence.",
+            "image": "https://example.com/images/dental-implants.png"
+        },
+        {
+            "title": "Invisalign",
+            "description": "Straighten your teeth discreetly with our custom Invisalign treatment.",
+            "image": "https://example.com/images/invisalign.png"
+        },
+        {
+            "title": "Dental Sealants",
+            "description": "Protect your teeth from decay with our effective dental sealant treatments.",
+            "image": "https://example.com/images/dental-sealants.png"
+        }
+    ]
+}

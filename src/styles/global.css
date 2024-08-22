@@ -1,0 +1,99 @@
+:root {
+    --primary: #3e8bff;
+    --primaryLight: #d3e5f7;
+    --secondary: #227bd5;
+    --secondaryLight: #87b7ff;
+    --textMako:#0b9a9a;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #000000;
+    --bodyTextColorWhite: #fafbfc;
+    --ctaButton: #0b9a9a;
+   --ctaButtonText: #101010;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSizeSmall: 1rem;
+    --bodyFontSize: 1.5rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    --headings: 'Montserrat Variable', sans-serif;
+  }
+  
+  body {
+    font-family: 'Montserrat Variable', sans-serif;
+    background-color: var(--primaryLight);
+    color: var(--bodyTextColor);
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+  }
+  .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: var(--bodyTextColor);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  
+  .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  
+  .cs-text {
+    font-size: var(--bodyFontSizeSmall);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+  
+  html {
+    font-family: system-ui, sans-serif;
+    background: #13151a;
+  }
+  code {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  
+.bg-darker{
+  background-color: var(--secondary);
+}
+
+h2, h3{
+font-family: var(--headings);
+}
+
+@media(min-width: 768px){
+
+  .cs-text {
+    font-size: var(--bodyFontSize);
+  }
+}
+
+footer .cs-header{
+  color: var(--bodyTextColorWhite) !important;
+}
+.text-mako{
+  color: var(--textMako);
+}
